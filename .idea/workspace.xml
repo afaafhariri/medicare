@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39b2005-21ef-4590-ae20-8e0747823ea3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.config.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.routes.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.spec.json" beforeDir="false" />
-    </list>
+    <list default="true" id="e39b2005-21ef-4590-ae20-8e0747823ea3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759672722841</updated>
       <workItem from="1759672724320" duration="258000" />
-      <workItem from="1759770273257" duration="1970000" />
+      <workItem from="1759770273257" duration="2313000" />
     </task>
     <servers />
   </component>
