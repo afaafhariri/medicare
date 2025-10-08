@@ -31,9 +31,21 @@ public class User {
 
     private boolean isActive = true;
 
+    @Column(unique = true)
     private String nic;
 
+    @Column(unique = true)
     private String passportNumber;
+
+    private String email;
+
+    private String profileImageUrl;
+
+    @Column(nullable = false)
+    private String dateOfBirth;
+
+    @Column(nullable = false)
+    private String bloodGroup;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "address_id", referencedColumnName = "id")
