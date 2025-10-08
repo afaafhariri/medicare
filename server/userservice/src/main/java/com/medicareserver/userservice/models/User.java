@@ -39,6 +39,9 @@ public class User {
     @JoinColumn(name = "address_id", referencedColumnName = "id")
     private Address address;
 
+    @OneToOne(mappedBy = "users", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Doctor doctor;
+
     private Instant createdAt = Instant.now();
     private Instant updatedAt;
 }

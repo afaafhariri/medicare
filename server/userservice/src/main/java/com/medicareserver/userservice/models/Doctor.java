@@ -1,12 +1,13 @@
 package com.medicareserver.userservice.models;
 
-import com.medicareserver.userservice.models.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Table(name = "doctors")
+@Getter
+@Setter
 public class Doctor {
     @Id
     private Long id;
