@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  user-db:
+    image: postgres:16
+    container_name: user-db
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=${postgres_user}
+      - POSTGRES_PASSWORD=${postgres_password}
+      - POSTGRES_DB=user_db
+    volumes:
+      - user_data:/var/lib/postgresql/data
+
+  auth-db:
+    image: postgres:16
+    container_name: auth-db
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_USER=${postgres_user}
+      - POSTGRES_PASSWORD=${postgres_password}
+      - POSTGRES_DB=auth_db
+    volumes:
+      - auth_data:/var/lib/postgresql/data
+
+  appointment-db:
+    image: postgres:16
+    container_name: appointment-db
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_USER=${postgres_user}
+      - POSTGRES_PASSWORD=${postgres_password}
+      - POSTGRES_DB=appointment_db
+    volumes:
+      - appointment_data:/var/lib/postgresql/data
+
+  medical-record-db:
+    image: postgres:16
+    container_name: medical-record-db
+    ports:
+      - "5436:5432"
+    environment:
+      - POSTGRES_USER=${postgres_user}
+      - POSTGRES_PASSWORD=${postgres_password}
+      - POSTGRES_DB=medical_record_db
+    volumes:
+      - medical_record_data:/var/lib/postgresql/data
+
+volumes:
+  user_data:
+  auth_data:
+  appointment_data:
+  medical_record_data:
