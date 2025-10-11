@@ -19,9 +19,10 @@ public class Patient {
     @JoinColumn(name = "id")
     private User user;
 
+    @Column(nullable = false, name = "emergency_contact_name")
     private String emergencyContactName;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "emergency_contact_number")
     private String emergencyContactNumber;
 
     @Column(nullable = false)
